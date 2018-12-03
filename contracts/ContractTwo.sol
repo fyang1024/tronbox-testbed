@@ -2,10 +2,10 @@ pragma solidity ^0.4.23;
 
 contract ContractTwo {
 
-  address public contractA;
+  address public contractOne;
 
-  constructor(address _contractA) public {
-    contractA = _contractA;
+  constructor(address _contractOne) public {
+    contractOne = _contractOne;
   }
 
 
